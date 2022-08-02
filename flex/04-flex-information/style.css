@@ -17,16 +17,12 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .items {
-  width: 200px;
-  padding: 0 52px;
+  max-width: 200px;
   text-align: center;
-}
-
-.text {
-  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
