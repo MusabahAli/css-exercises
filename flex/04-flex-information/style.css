@@ -11,9 +11,23 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
 
+.items {
+  width: 200px;
+  padding: 0 52px;
+  text-align: center;
+}
+
+.text {
+  flex-wrap: wrap;
+}
 
 /* do not edit this footer */
 .footer {
